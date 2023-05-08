@@ -10,11 +10,10 @@ Best case: Aradığımız sayının dizinin en başında olması.
 [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
 
 
-[22,27,16,2,18,6] -> [2,27,16,22,18,6] -> [2,6,16,22,18,27] -> [2,6,16,18,22,27]
-) Big-O gösterimi: n+(n-1)+(n-2)...+1= n(n+1)/2= Baskın ifade n² --> O(n²)
-      3) [2,6,16,18,22,27] dizinin son hali bu şekilde olduğu için 18 sayısı ortada yer alır. Bu            durumda 18 sayısı average case senaryosuna girer.
-       4)[7,3,5,8,2,9,4,15,6] 
-
+1) [22,27,16,2,18,6] -> [2,27,16,22,18,6] -> [2,6,16,22,18,27] -> [2,6,16,18,22,27]
+2) Big-O gösterimi: n+(n-1)+(n-2)...+1= n(n+1)/2= Baskın ifade n² --> O(n²)
+3) [2,6,16,18,22,27] dizinin son hali bu şekilde olduğu için 18 sayısı ortada yer alır. Bu durumda 18 sayısı average case senaryosuna girer.
+4)[7,3,5,8,2,9,4,15,6] 
 2,3,5,8,7,9,4,15,6 --> 1. adım: soldan 1. sıraya dizideki en küçük sayı 2 yazıldı.
 2,3,4,8,7,9,5,15,6 --> 2. adım: 2 ve 3'ten sonra en küçük sayı 4 olduğu için 5 ile yer değiştirildi.
 2,3,4,5,7,9,8,15,6 --> 3. adım
