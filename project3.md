@@ -5,7 +5,8 @@ Proje 3
 Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
 
 Root 6'dır. 6'nın sağından 7, solundan 5 bulunur.
-
+ 
+ 
                   6
                 /   \
                5     7
